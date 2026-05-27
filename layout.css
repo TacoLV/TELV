@@ -71,24 +71,28 @@ body {
 }
 
 /* Twitter profile preview (small circle top-right of the X icon) */
-.social-icon.twitter { position: relative; }
+.social-icon.twitter { 
+    position: relative;
+    display: inline-block;
+}
 
 .twitter-label {
     display: inline-block;
     position: absolute;
-    bottom: -24px;
+    bottom: -26px;
     left: 50%;
     transform: translateX(-50%);
-    padding: 4px 6px;
+    padding: 3px 8px;
     border-radius: 6px;
     background: rgba(255, 255, 255, 0.1);
     color: white;
     text-align: center;
     font-size: 0.65rem;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1;
     box-sizing: border-box;
     white-space: nowrap;
+    min-width: fit-content;
 }
 
 /* Container for main content */
