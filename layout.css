@@ -59,6 +59,11 @@ body {
     height: 40px; /* Set height for social icons */
 }
 
+/* Nudge non-twitter social icons (Discord) upward to match Twitter's level */
+.social-links .social-icon:not(.twitter) {
+    transform: translateY(-6px);
+}
+
 .icon {
     width: 100%; /* Ensure image scales inside its container */
     height: 100%; /* Ensure image scales inside its container */
